@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1019611996848",
+    "firebase_url": "https://busapp-d18a3.firebaseio.com",
+    "project_id": "busapp-d18a3",
+    "storage_bucket": "busapp-d18a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019611996848:android:1a621696e5e36190429175",
+        "android_client_info": {
+          "package_name": "com.misaelriojas.bus_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1019611996848-t7c5m885smvdm8rr5u0l14lrojbahj1c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4RZMiQ5jNLdqt1H-ANSUAfr2h5_a1lgc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1019611996848-t7c5m885smvdm8rr5u0l14lrojbahj1c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
