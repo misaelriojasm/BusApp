@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:bus_app/src/splashscreen/splash.dart';
-import 'package:bus_app/src/ownerscreen/owner.dart';
-import 'package:bus_app/src/driverscreen/driver.dart';
+import 'package:bus_app/src/views/splashscreen/splash.dart';
+import 'package:bus_app/src/views/ownerscreen/owner.dart';
+import 'package:bus_app/src/views/driverscreen/driver.dart';
 
 void main() {
   runApp(MaterialApp(

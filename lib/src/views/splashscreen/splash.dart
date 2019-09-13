@@ -1,7 +1,7 @@
-import 'package:bus_app/src/ownerscreen/owner.dart';
+import 'package:bus_app/src/views/ownerscreen/owner.dart';
 import 'package:flutter/material.dart';
 import 'package:splashscreen/splashscreen.dart';
-import 'package:bus_app/src/driverscreen/driver.dart';
+import 'package:bus_app/src/views/driverscreen/driver.dart';
 
 class MyApp extends StatefulWidget {
   @override
@@ -12,7 +12,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return new SplashScreen(
-      seconds: 14,
+      seconds: 5,
       navigateAfterSeconds: new Owner(),
       title: new Text('Welcome In SplashScreen',
         style: new TextStyle(
