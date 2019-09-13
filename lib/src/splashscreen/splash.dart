@@ -1,5 +1,7 @@
+import 'package:bus_app/src/ownerscreen/owner.dart';
 import 'package:flutter/material.dart';
 import 'package:splashscreen/splashscreen.dart';
+import 'package:bus_app/src/driverscreen/driver.dart';
 
 class MyApp extends StatefulWidget {
   @override
@@ -11,7 +13,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return new SplashScreen(
       seconds: 14,
-      navigateAfterSeconds: new AfterSplash(),
+      navigateAfterSeconds: new Owner(),
       title: new Text('Welcome In SplashScreen',
         style: new TextStyle(
           fontWeight: FontWeight.bold,
@@ -19,7 +21,6 @@ class _MyAppState extends State<MyApp> {
         ),
       ),
       image: new Image.network('https://flutter.io/images/catalog-widget-placeholder.png'),
-      backgroundGradient: new LinearGradient(colors: [Colors.cyan, Colors.blue], begin: Alignment.topLeft, end: Alignment.bottomRight),
       backgroundColor: Colors.white,
       styleTextUnderTheLoader: new TextStyle(),
       photoSize: 100.0,

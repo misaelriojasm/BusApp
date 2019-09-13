@@ -1,19 +1,17 @@
 import 'package:flutter/material.dart';
 
-
-
-class Owner extends StatelessWidget {
+class Driver extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Owner Screen'),
+        title: Text('Driver Screen'),
       ),
       body: Center(
         child: RaisedButton(
-          child: Text('Driver screen'),
+          child: Text('Owner screen'),
           onPressed: () {
-            Navigator.pushNamed(context, '/Driver');
+            Navigator.pushNamed(context, '/Owner');
           },
         ),
       ),
